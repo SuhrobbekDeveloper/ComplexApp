@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F21EF8D"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SpinnerActivity">
+
+    <!-- <Button
+         android:id="@+id/click"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />-->
+    <nl.invissvenska.pulsatingripple.PulsatingLayout
+        android:id="@+id/pulsatingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pr_color="#FEC400"
+        app:pr_duration="6000"
+        app:pr_radius="8dp"
+        app:pr_rippleAmount="4"
+        app:pr_scale="4"
+        app:pr_type="fillRipple">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/marker2" />
+    </nl.invissvenska.pulsatingripple.PulsatingLayout>
+
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/mapkit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--  <com.skydoves.powerspinner.PowerSpinnerView
+          android:id="@+id/spinner"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/md_blue_200"
+          android:gravity="left"
+          android:hint="Gender"
+          android:padding="10dp"
+          android:textColor="@color/white_93"
+          android:textColorHint="@color/white_70"
+          android:textSize="14.5sp"
+          app:spinner_arrow_drawable="@drawable/down_arrow"
+          app:spinner_arrow_gravity="end"
+          app:spinner_arrow_padding="8dp"
+          app:spinner_divider_color="#C83939"
+          app:spinner_divider_show="true"
+          app:spinner_divider_size="0.4dp"
+          app:spinner_item_array="@array/gender"
+          app:spinner_item_height="46dp"
+          app:spinner_popup_animation="dropdown"
+          app:spinner_popup_background="@color/background800"
+          app:spinner_popup_elevation="14dp" />
+
+      <com.animsh.animatedcheckbox.AnimatedCheckBox
+          android:id="@+id/check"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_marginTop="20dp"
+          app:border_stroke_width="2dp"
+          app:color_checked="#89F30C"
+          app:color_tick="@color/white"
+          app:color_unchecked="@color/amber100"
+          app:small_tick="true"
+          app:tick_stroke_width="2dp" />
+
+      <TextView
+          android:id="@+id/text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="By signing up. you agree to the Terms of service and
+  Privacy policy." />
+
+      <com.king.view.splitedittext.SplitEditText
+          android:id="@+id/splitEdittext"
+          android:layout_width="300dp"
+          android:layout_height="45dp"
+          android:inputType="number"
+          app:setBorderColor="#D0D0D0"
+          app:setBorderCornerRadius="4dp"
+          app:setBorderStyle="box"
+          app:setBoxBackgroundColor="@color/white"
+          app:setFakeBoldText="true"
+          app:setFocusBorderColor="#F6CD56"
+          app:setInputBorderColor="#F6CD56"
+          app:setMaxLength="5"
+          app:setStrokeWidth="1dp"
+          app:setTextStyle="plain_text" />-->
+
+    <!-- <FrameLayout
+         android:id="@+id/fr_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:layout_constraintBottom_toBottomOf="parent">
+
+         <com.google.android.material.bottomnavigation.BottomNavigationView
+             android:id="@+id/bottomNavigationView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="bottom"
+             android:background="@drawable/bottom_nav_back"
+             app:elevation="30dp"
+             app:labelVisibilityMode="labeled"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:menu="@menu/bottom_menu" />
+
+     </FrameLayout>
+
+     <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_width="80dp"
+         android:layout_height="100dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="@id/fr_layout"
+         app:layout_constraintStart_toStartOf="@id/fr_layout">
+
+         <LinearLayout
+             android:id="@+id/center_item"
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="20dp"
+             android:background="@drawable/hexagon"
+             android:gravity="center"
+             android:rotation="90"
+             app:layout_anchorGravity="center_horizontal"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent">
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:rotation="-90"
+                 android:src="@drawable/wallet" />
+         </LinearLayout>
+     </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</LinearLayout>

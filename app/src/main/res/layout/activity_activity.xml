@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui2.ActivityA">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dummy"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/option_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option" />
+
+    <Button
+        android:id="@+id/socket_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Socket" />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/socket_get_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Socket Get" />
+
+    <com.example.client_example.customView.MyCustomView2
+        android:id="@+id/customView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:size="100dp"
+        app:square_color="@color/green" />
+    <!--   <com.example.client_example.customView.CircularProgressView
+           android:id="@+id/circ_progress"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:backColor="@color/amber50"
+           app:progressColor="@color/green"
+           app:strokeWidth="10dp" />
+
+       <com.example.client_example.customView.MyCustomView
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginHorizontal="20dp"
+           app:customColor="@color/green" />-->
+    <!--
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera" />
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery" />
+    -->
+
+</LinearLayout>

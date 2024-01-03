@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_name_is_suhrobbek">My name is Suhrobbek.</string>
+    <string name="my_mother_is_a_teacher">My mother is a teacher.</string>
+    <string name="i_stydy_at_the_university">I stydy at the university.</string>
+    <string name="change">Change to Russian</string>
+    <string name="change2">Change to English</string>
+</resources>

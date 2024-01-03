@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name" translatable="false">client_example</string>
+    <string name="heading" translatable="false">Services In Android</string>
+    <string name="startButtonText" translatable="false">Start the Service</string>
+    <string name="stopButtonText" translatable="false">Stop the Service</string>
+    <string name="YANDEX_API_KEY" translatable="false">d71fbc0d-c603-4e89-96f1-53655361d3de</string>
+    <string name="nav_open" translatable="false">Open</string>
+    <string name="nav_close" translatable="false">Close</string>
+
+    <string name="toggle_progress" translatable="false">Toggle Progress</string>
+    <string name="toggle_highlight" translatable="false">Toggle Highlight</string>
+    <string name="highlighted" translatable="false">Highlighted</string>
+    <string name="normal_thickness" translatable="false">Normal Thickness</string>
+    <string name="highlighted_thickness" translatable="false">Highlighted Thickness</string>
+    <string name="distance_to_border" translatable="false">Distance to Border</string>
+    <string name="arches_count" translatable="false">Arches Count</string>
+    <string name="arches_area" translatable="false">Arches Area</string>
+    <string name="highlight" translatable="false">Highlight</string>
+    <string name="arc_length" translatable="false">Arc Length</string>
+    <string name="confirm" translatable="false">Confirm</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="choose_color" translatable="false">Choose color</string>
+    <string name="colors" translatable="false">Colors</string>
+    <string name="it_works" translatable="false">It works!</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="my_name_is_suhrobbek">My name is Suhrobbek.</string>
+    <string name="my_mother_is_a_teacher">My mother is a teacher.</string>
+    <string name="i_stydy_at_the_university">I stydy at the university.</string>
+    <string name="change">Change to Russian</string>
+    <string name="change2">Change to English</string>
+    <string name="select" translatable="false">select</string>
+    <string name="takepic" translatable="false">takePic</string>
+    <string name="opengallery" translatable="false">Open gallery</string>
+</resources>

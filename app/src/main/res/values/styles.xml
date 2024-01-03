@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomAppBarOverlay">
+        <item name="colorControlNormal">@color/blue800</item>
+<item name="boxCornerRadiusTopEnd">20dp</item>
+<item name="boxCornerRadiusTopStart">20dp</item>
+    </style>
+</resources>
